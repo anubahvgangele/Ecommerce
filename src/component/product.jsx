@@ -34,7 +34,7 @@ export const Product = ({post}) => {
             <p className='w-40 text-gray-400 font-normal text-[10px] text-left '>{post.description.split(" ").slice(0,10).join(" ") + ("...")}</p>
         </div>
         <div>
-            <img src={post.image}  alt='product Image' className='h-[180px]'/>
+            <img src={post.image}  alt='product' className='h-[180px]'/>
         </div>
         <div className='flex gap-12'>
             <div>
